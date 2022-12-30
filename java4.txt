@@ -1,0 +1,19 @@
+GITHUB INFORMATION 
+
+
+Hawa2022kb@1
+
+
+
+
+Hawa2022
+
+Repository name hawa1
+
+git remote add origin https://github.com/Hawa2022/hawa1.git
+git branch -M main
+git push -u origin main
+
+2222
+3333
+444

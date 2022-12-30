@@ -1,0 +1,66 @@
+ssh-add -L keyname
+
+ssh -A ecu-user@public
+
+ec2-user
+
+
+chmod 400 keypair
+
+
+user group other
+
+read write execute
+4      2     1
+
+400
+user
+
+ssh -1i keypair umbuntu@ip 
+
+
+
+
+
+create private and puble
+
+private we use the security id for public to open traffic for private
+
+puttygen load the key and save with same name
+
+paegent load that key
+
+then go to putty ssh put public ip then auth then agent fowarding 
+
+ec2-user
+
+
+ec2-user@private ip`
+
+
+
+
+
+https://www.davidc.net/sites/default/subnets/subnets.html
+
+1
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install -y httpd
+systemctl start httpd.service
+systemctl enable httpd.service
+echo "Hello Awesome Immersion WKND Batch" > /var/www/html/index.html
+
+
+
+2
+
+#!/bin/bash
+sudo su
+yum update -y
+yum install -y httpd
+systemctl start httpd.service
+systemctl enable httpd.service
+echo "Bye Awesome Immersion WKND Batch" > /var/www/html/index.htm
